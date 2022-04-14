@@ -1,0 +1,182 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/story";
+@import "components/bg-video.scss";
+@import "components/form";
+@import "components/popup";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navigation";
+
+@import "pages/home";
+
+/* Template: https://dribbble.com/shots/17340052-Yummy-Food-Landing-Page/attachments/12458349?mode=media */
+
+/*Images: https://www.behance.net/gallery/129169625/Food-Memory-C4D
+
+https://dribbble.com/zhangxiaoha
+
+*/
+
+/* COLOR BACKGROUND
+Main: $color-primary
+Second: #ffffff
+Other: #51734e
+*/
+
+/* COLOR TEXT
+Main: $color-primary-light
+Medium - main: $color-primary-dark
+Second: #161616
+Other: $color-white-light 
+*/
+
+// .header__logo-box {
+//   position: absolute;
+//   top: 4rem;
+//   left: 4rem;
+// }
+
+// .header__logo {
+//   height: 3.5rem;
+// }
+
+// .header__text-box {
+//   position: absolute;
+//   top: 40%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   -webkit-transform: translate(-50%, -50%);
+//   -moz-transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+//   -o-transform: translate(-50%, -50%);
+//   text-align: center;
+// }
+
+// .heading-primary--main {
+//   display: block;
+//   font-size: 6rem;
+//   font-weight: 400;
+//   letter-spacing: 3.2rem;
+
+//   animation-name: moveInLeft;
+//   animation-duration: 1s; /*Thoi gian chay hieu ung*/
+//   animation-timing-function: ease-out; /* hieu ung chay nhanh luc dau sau chay cham dan*/
+
+//   /*Thoi gian delay de chay hieu ung*/
+//   /* animation-delay: 3s; */
+
+//   /*Hieu dung se chay lai n lan*/
+//   /* animation-iteration-count: 3;  */
+// }
+
+// .heading-primary--sub {
+//   display: block;
+//   font-size: 2rem;
+//   font-weight: 700;
+//   letter-spacing: 1.74rem;
+//   /*animation-name: moveInRight;
+//   animation-duration: 1s;
+//   animation-timing-function: ease-out;
+//   */
+
+//   /* viet gon */
+//   animation: moveInRight 1s ease-out;
+//   -webkit-animation: moveInRight 1s ease-out;
+// }
+
+// .btn:link,
+// .btn:visited {
+//   position: relative;
+//   text-transform: uppercase;
+//   text-decoration: none;
+//   padding: 1.5rem 4rem;
+//   display: inline-block;
+//   border-radius: 10rem;
+//   -webkit-border-radius: 10rem;
+//   -moz-border-radius: 10rem;
+//   -ms-border-radius: 10rem;
+//   -o-border-radius: 10rem;
+//   transition: all 0.2s;
+//   -webkit-transition: all 0.2s;
+//   -moz-transition: all 0.2s;
+//   -ms-transition: all 0.2s;
+//   -o-transition: all 0.2s;
+//   font-size: 1.6rem;
+// }
+
+// .btn:hover {
+//   transform: translateY(-0.3rem);
+//   -webkit-transform: translateY(-0.3rem);
+//   -moz-transform: translateY(-0.3rem);
+//   -ms-transform: translateY(-0.3rem);
+//   -o-transform: translateY(-0.3rem);
+//   box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+// }
+
+// .btn:active {
+//   transform: translateY(-0.1rem);
+//   -webkit-transform: translateY(-0.1rem);
+//   -moz-transform: translateY(-0.1rem);
+//   -ms-transform: translateY(-0.1rem);
+//   -o-transform: translateY(-0.1rem);
+//   box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+// }
+
+// .btn--white {
+//   background-color: $color-white-light;
+//   color: $color-primary-light;
+// }
+
+// .btn::after {
+//   content: "";
+//   display: inline-block;
+//   height: 100%;
+//   width: 100%;
+//   border-radius: 10rem;
+//   -webkit-border-radius: 10rem;
+//   -moz-border-radius: 10rem;
+//   -ms-border-radius: 10rem;
+//   -o-border-radius: 10rem;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: -1;
+//   transition: all 0.4s;
+//   -webkit-transition: all 0.4s;
+//   -moz-transition: all 0.4s;
+//   -ms-transition: all 0.4s;
+//   -o-transition: all 0.4s;
+// }
+
+// .btn--white::after {
+//   background-color: $color-white-light;
+// }
+
+// .btn:hover::after {
+//   transform: scaleX(1.5) scaleY(1.6);
+//   -webkit-transform: scaleX(1.5) scaleY(1.6);
+//   -moz-transform: scaleX(1.5) scaleY(1.6);
+//   -ms-transform: scaleX(1.5) scaleY(1.6);
+//   -o-transform: scaleX(1.5) scaleY(1.6);
+//   opacity: 0;
+// }
+
+// .btn--animated {
+//   animation: moveInBottom 0.5s ease-out 0.75s;
+//   -webkit-animation: moveInBottom 0.5s ease-out 0.75s;
+//   animation-fill-mode: backwards;
+// }
